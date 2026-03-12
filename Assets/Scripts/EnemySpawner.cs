@@ -26,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
     void SpawnEnemy()
     {
         // Count how many enemy objects are currently in the scene
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         // If we already have too many enemies, do not spawn more
         if (enemies.Length >= maxEnemies)
