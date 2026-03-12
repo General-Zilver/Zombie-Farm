@@ -23,7 +23,7 @@ public class BulletMovement : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // If the bullet touches an enemy, destroy the enemy
-        if (other.CompareTag("enemy"))
+        if (other.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
