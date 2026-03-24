@@ -10,8 +10,8 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        // Press Space to shoot
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Press K to shoot
+        if (Input.GetKeyDown(KeyCode.K))
         {
             Shoot();
         }
