@@ -200,6 +200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -880,7 +884,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1299192670544450052, guid: 88c5fda2f82d20c42b372f4e1c398ccb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 929692978}
   m_SourcePrefab: {fileID: 100100000, guid: 88c5fda2f82d20c42b372f4e1c398ccb, type: 3}
 --- !u!1001 &289191093
 PrefabInstance:
@@ -1238,6 +1245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_GrassLand_Plain
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3ad1cbd2eba193499ef7a696c7194ae, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1262,6 +1273,10 @@ PrefabInstance:
     - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.x
@@ -1738,6 +1753,10 @@ PrefabInstance:
     - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2275,6 +2294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered
       objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
@@ -2340,6 +2363,10 @@ PrefabInstance:
     - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.x
@@ -2563,6 +2590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2584,6 +2615,10 @@ PrefabInstance:
     - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.z
@@ -3072,6 +3107,8 @@ MonoBehaviour:
   maxX: 20
   minZ: -20
   maxZ: 20
+  minY: 3
+  maxY: 3
 --- !u!4 &904497029
 Transform:
   m_ObjectHideFlags: 0
@@ -3081,12 +3118,33 @@ Transform:
   m_GameObject: {fileID: 904497027}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.72, y: 2.5, z: -45.16}
+  m_LocalPosition: {x: 34.72, y: 2.5, z: -14.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &929692971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1299192670544450052, guid: 88c5fda2f82d20c42b372f4e1c398ccb, type: 3}
+  m_PrefabInstance: {fileID: 267863038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &929692978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929692971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bf39b5ef1979149807a7867bdb9c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieChase
+  moveSpeed: 3
+  attackRange: 1.5
+  damageAmount: 10
+  attackCooldown: 2
 --- !u!1001 &944843552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3422,6 +3480,10 @@ PrefabInstance:
     - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3795,6 +3857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered
       objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
@@ -3858,6 +3924,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4159968538865178726, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159968538865178726, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234796102597631037, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
@@ -3928,7 +4002,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5234796102597631037, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1609407810}
   m_SourcePrefab: {fileID: 100100000, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
 --- !u!1001 &1126621663
 PrefabInstance:
@@ -4410,6 +4487,10 @@ PrefabInstance:
     - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.x
@@ -5492,6 +5573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered
       objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5561,6 +5646,10 @@ PrefabInstance:
     - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6065,6 +6154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_08_Watered (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1297887420904541181, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
@@ -6119,6 +6212,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1821940344095691079, guid: 5d4a3202425eba9469a7086a49892306, type: 3}
   m_PrefabInstance: {fileID: 1599142687}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609407806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5234796102597631037, guid: 2a9e9a6f9467de84cb3cada8b5abb00a, type: 3}
+  m_PrefabInstance: {fileID: 1120547513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1609407810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609407806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2391d322b40114d90076431ef7da31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 100
+  currentHealth: 25
+  regenerationRate: 1
 --- !u!1001 &1612737805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6470,6 +6583,10 @@ PrefabInstance:
     - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6981,6 +7098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7194,6 +7315,10 @@ PrefabInstance:
     - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
       propertyPath: m_Name
       value: Env_FarmLand_06_Watered (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035756330603154426, guid: 56de6c5559ace384c9e8d1dc89573b98, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

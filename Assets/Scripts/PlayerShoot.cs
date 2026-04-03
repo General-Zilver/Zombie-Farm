@@ -10,8 +10,8 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        // Press K to shoot
-        if (Input.GetKeyDown(KeyCode.K))
+        // Press the right mouse button to shoot
+        if (Input.GetKeyDown(KeyCode.RightControl) || Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
